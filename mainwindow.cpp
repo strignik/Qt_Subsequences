@@ -62,7 +62,7 @@ void MainWindow::setValidators()
     wordsValidator = new QRegExpValidator(expForWords, this);
     stringValidator = new QRegExpValidator(expForString, this);
     ui->Words->setValidator(wordsValidator);
-    ui->Str->setValidator(wordsValidator);
+    ui->Str->setValidator(stringValidator);
 }
 
 void MainWindow::on_resultButton_clicked()
